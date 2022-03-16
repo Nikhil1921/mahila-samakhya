@@ -18,7 +18,7 @@
                     <tbody>
                     <?php foreach ($kacheries as $v): ?>
                         <tr>
-                        <td class="text-center"><?= $v['name'] ?> કચેરી</td>
+                        <td class="text-center"><?= $v['name'] ?></td>
                         <td class="text-center"><?= $v['address'] ?></td>
                         <td class="text-center"><?= $v['mobile'] ?></td>
                         <td class="text-center"><?= $v['email'] ?></td>
