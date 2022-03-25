@@ -34,8 +34,8 @@
                       <?php foreach ($staff as $v): ?>
                       <tr>
                         <td colspan="3" style="text-align: center;"><?= img(['class' => "img_staff", 'src' => $v['image']]) ?></td>
-                        <td colspan="2" style="text-align: center;"><?= $v['hoddo'] ?></td>
                         <td colspan="5" style="text-align: center;"><p class="tbl_p"><?= $v['name'] ?></p></td>
+                        <td colspan="2" style="text-align: center;"><?= $v['hoddo'] ?></td>
                         <td colspan="2" style="text-align: center;"><?= $v['mobile'] ?></td>
                       </tr>
                       <?php endforeach ?>
