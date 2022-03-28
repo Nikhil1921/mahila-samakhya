@@ -24,19 +24,19 @@
                   <table class="table table-bordered table-striped product-table">
                     <thead>
                       <tr style="background: #939796 !important;color: #ffffff !important;">
-                        <th colspan="3" style="text-align: center;"><strong>ફોટો</strong></th>
-                        <th colspan="5" style="text-align: center;"><strong>નામ</strong></th>
-                        <th colspan="2" style="text-align: center;"><strong>હોદ્દો</strong></th>
-                        <th colspan="2" style="text-align: center;"><strong>મોબાઈલ નંબર</strong></th>
+                        <th style="width:10%; text-align: center;"><strong>ફોટો</strong></th>
+                        <th style="width:30%; text-align: center;"><strong>નામ</strong></th>
+                        <th style="width:30%; text-align: center;"><strong>હોદ્દો</strong></th>
+                        <th style="width:30%; text-align: center;"><strong>મોબાઈલ નંબર</strong></th>
                       </tr>
                     </thead>
                     <tbody>
                       <?php foreach ($staff as $v): ?>
                       <tr>
-                        <td colspan="3" style="text-align: center;"><?= img(['class' => "img_staff", 'src' => $v['image']]) ?></td>
-                        <td colspan="5" style="text-align: center;"><p class="tbl_p"><?= $v['name'] ?></p></td>
-                        <td colspan="2" style="text-align: center;"><?= $v['hoddo'] ?></td>
-                        <td colspan="2" style="text-align: center;"><?= $v['mobile'] ?></td>
+                        <td style="text-align: center;"><?= img(['class' => "img_staff", 'src' => $v['image']]) ?></td>
+                        <td style="text-align: center;"><p class="tbl_p"><?= $v['name'] ?></p></td>
+                        <td style="text-align: center;"><?= $v['hoddo'] ?></td>
+                        <td style="text-align: center;"><?= $v['mobile'] ?></td>
                       </tr>
                       <?php endforeach ?>
                     </tbody>

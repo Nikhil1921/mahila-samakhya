@@ -395,7 +395,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .img_staff {
-    max-width: 31%;
+    max-width: 100%;
 }
 
 .bld {
@@ -492,6 +492,7 @@ font-family: 'Montserrat', sans-serif;
 .con_mahial img {
     margin: auto;
     display: table;
+    max-width: 100%;
 }
 
 .kendro_img {

@@ -98,9 +98,9 @@ class Main_modal extends MY_Model
                             ->from('staff s')
                             ->where(['s.is_deleted' => 0]);
                             
-        if ($slug) $this->db->where(['k.slug' => $slug])->join('kacheries k', 'k.id = s.k_id')->limit(10);
+        if ($slug) $this->db->where(['k.slug' => $slug])->join('kacheries k', 'k.id = s.k_id');
 
-        return $this->db->order_by('s.id DESC')->get()->result_array();
+        return $this->db->order_by('s.id ASC')->get()->result_array();
     }
 
 	public function getVisitors()

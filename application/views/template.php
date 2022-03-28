@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?= link_tag('assets/images/favicon.png', 'icon', 'image/x-icon') ?>
         <?= link_tag('assets/css/bootstrap.css', 'stylesheet', 'text/css') ?>
-        <?= link_tag('assets/css/style.css', 'stylesheet', 'text/css') ?>
+        <?= link_tag('assets/css/style.css?v=1.0.2', 'stylesheet', 'text/css') ?>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
